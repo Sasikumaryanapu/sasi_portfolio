@@ -5,10 +5,28 @@ import nodejs from "../images/nodejs.png"
 import html from "../images/html.png"
 import css from "../images/css.png"
 import javascript from "../images/javascript.png"
+import sass from "../images/sass.png"
+import tailwindCSS from "../images/tailwind.png"
+import styled from "../images/styled.png"
 
 
 // --------------------------------------- Project List
 export const ProjectList = [
+  {
+    title: "Dundo",
+    description:"created an platform like Urban Company",
+    tech_stack: "ReactJs , Nodejs , Expressjs , MongoDB , Redux Toolkit",
+    github_url: "https://github.com/Sasikumaryanapu/sasi_portfolio.git",
+    demo_url: "https://dundo.netlify.app/",
+  },
+  {
+    title: "Rock paper scissor game",
+    description:
+      "A very basic webapp game that is built using DOM manipulations.",
+    tech_stack: "Html, Css, Javascript",
+    github_url: "https://github.com/Sasikumaryanapu/stonepaperscissorgame.git",
+    demo_url: "https://sasikumaryanapu.github.io/stonepaperscissorgame/",
+  },
   {
     title: "Cityguide",
     description: "This is an guide about the tourists places for travllers. ",
@@ -23,14 +41,7 @@ export const ProjectList = [
     github_url: "https://your_project_github_link",
     demo_url: "https://your_project_demo_link",
   },
-  {
-    title: "Rock paper scissor game",
-    description:
-      "A very basic webapp game that is built using DOM manipulations.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://github.com/Sasikumaryanapu/stonepaperscissorgame.git",
-    demo_url: "https://sasikumaryanapu.github.io/stonepaperscissorgame/",
-  },
+  
   // {
   //   title: "Portfolio",
   //   description: "Ofcourse i made my own personal portfolio website.",
@@ -44,7 +55,8 @@ export const ProjectList = [
     tech_stack: "Nodejs , Expressjs , MongoDB",
     github_url: "https://github.com/Sasikumaryanapu/notebook.git",
     demo_url: "https://github.com/Sasikumaryanapu/notebook.git",
-  },
+  }
+ 
 ];
 
 // --------------------------------------- Skills
@@ -85,5 +97,17 @@ export const stackList = [
   {
     img:"https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
     name: "Responsive",
+  },
+  {
+    img: tailwindCSS,
+    name: "TailwindCSS",
+  },
+  {
+    img:sass,
+    name: "Sass",
+  },
+  {
+    img:styled,
+    name: "Styled-Components",
   }
 ];

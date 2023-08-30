@@ -25,9 +25,8 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <h1>Hi, I'm sasi kumar</h1>
-            <h5>fullstack Developer</h5>
-            <p>
-              I design and code beautifully simple things, and I love what I do.
+            <h5>fullstack Web Developer</h5>
+            <p> who can code beautifully and build responsive web design.
             </p>
           </HeroLeft>
           <HeroRight>
