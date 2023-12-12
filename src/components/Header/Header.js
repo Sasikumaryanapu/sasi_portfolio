@@ -1,15 +1,22 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-
 const Header = ({ toggle }) => {
-  return (
+
+  const downloadFile = () => {
+    const fileUrl = process.env.PUBLIC_URL + "/resume.pdf"; 
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "sasi_resume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return (  
     <div className="Container">
       <Nav>
         <Logo to="/">
-          <img
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/logo.png"
-            alt="logo"
-          />
+         
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects" smooth={true}>
@@ -23,13 +30,7 @@ const Header = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <a
-            className="btn PrimaryBtn"
-            href="/hello"
-            target="_blank"
-          >
-            Resume
-          </a>
+        <a  className="btn PrimaryBtn" onClick={downloadFile}>Resume</a>
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>

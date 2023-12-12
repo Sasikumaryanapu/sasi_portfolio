@@ -13,35 +13,40 @@ import styled from "../images/styled.png"
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    title: "Yodaskill - Scripting Better Education",
+    description: "The Edutech Candidate Assessment and Hiring Platform is a comprehensive solution designed for staffing and recruiting purposes.",
+    tech_stack: "ReactJS , NodeJS , ExpressJS , MySQL , Redux-Toolkit , Git .",
+    github_url: "https://github.com/Sasikumaryanapu",
+    demo_url: "https://yodaskill.com",
+  },
+  {
+    title: "Web Scraping and SEO Optimization",
+    description: "Enhancing online visibility through effective web scraping and SEO optimization strategies .",
+    tech_stack: "ReactJS , Python , Flask , MySQL ",
+    github_url: "https://github.com/Sasikumaryanapu",
+    demo_url: "",
+  },
+  {
     title: "Dundo",
-    description:"created an platform like Urban Company",
+    description: "Recreated the sleek UI of Urban Company with a strong emphasis on user authentication. While it's a UI clone, the platform maintains simplicity and secure user access.",
     tech_stack: "ReactJs , Nodejs , Expressjs , MongoDB , Redux Toolkit",
     github_url: "https://github.com/Sasikumaryanapu/sasi_portfolio.git",
     demo_url: "https://dundo.netlify.app/",
   },
-  {
-    title: "Rock paper scissor game",
-    description:
-      "A very basic webapp game that is built using DOM manipulations.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://github.com/Sasikumaryanapu/stonepaperscissorgame.git",
-    demo_url: "https://sasikumaryanapu.github.io/stonepaperscissorgame/",
-  },
-  {
-    title: "Cityguide",
-    description: "This is an guide about the tourists places for travllers. ",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://github.com/Sasikumaryanapu/citytour.git",
-    demo_url: "https://sasikumaryanapu.github.io/citytour/",
-  },
-  {
-    title: "Instagram Clone",
-    description: "I have created a functional clone of instagram using global state management and single page application library ",
-    tech_stack: "Reactjs, Zustand ,Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
-  },
-  
+  // {
+  //   title: "Cityguide",
+  //   description: "This is an guide about the tourists places for travllers. ",
+  //   tech_stack: "Reactjs, Css",
+  //   github_url: "https://github.com/Sasikumaryanapu/citytour.git",
+  //   demo_url: "https://sasikumaryanapu.github.io/citytour/",
+  // },
+  // {
+  //   title: "Instagram Clone",
+  //   description: "I have created a functional clone of instagram using global state management and single page application library ",
+  //   tech_stack: "Reactjs, Zustand ,Css",
+  //   github_url: "https://your_project_github_link",
+  //   demo_url: "https://your_project_demo_link",
+  // },
   // {
   //   title: "Portfolio",
   //   description: "Ofcourse i made my own personal portfolio website.",
@@ -80,15 +85,15 @@ export const stackList = [
   },
   {
     img:nodejs,
-    name: "Nodejs",
+    name: "NodeJS",
   },
   {
     img:mongodb,
-    name: "Mongodb",
+    name: "MongoDB",
   },
   {
     img:python,
-    name: "python",
+    name: "Python",
   },
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",

@@ -21,7 +21,7 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>sasi kumar</strong>  full-stack developer intern. 
+            Hello! My name is <strong>Sasi Kumar</strong>  full-stack developer. 
             I have  proficiency in some of the following programs: React, Node, mongoDB , Scss , Zustand , HTML, CSS and javascript  . 
             I seek to establish a full time career as a full-stack developer. 
             As someone who understands web application architecture well, I am capable of training others in general web development.

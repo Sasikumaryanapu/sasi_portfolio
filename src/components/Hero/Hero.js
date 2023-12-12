@@ -24,10 +24,12 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm sasi kumar</h1>
-            <h5>fullstack Web Developer</h5>
-            <p> who can code beautifully and build responsive web design.
-            </p>
+          <div>
+  <h1>Hello, I'm Sasi Kumar</h1>
+  <h5>Your Fullstack Web Developer</h5>
+  <p>Passionate about crafting seamless web experiences. From server logic to user interfaces, I bring ideas to life across the entire web stack.</p>
+</div>
+
           </HeroLeft>
           <HeroRight>
             <Image
