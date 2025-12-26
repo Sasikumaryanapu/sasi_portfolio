@@ -1,4 +1,6 @@
 import python from "../images/python.png"
+import git from "../images/git.png"
+import responsiveWeb from "../images/responsive-web.webp"
 import reactjs from "../images/reactjs.png"
 import mongodb from "../images/mongodb.png"
 import nodejs from "../images/nodejs.png"
@@ -96,11 +98,11 @@ export const stackList = [
     name: "Python",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+    img: git,
     name: "Git",
   },
   {
-    img:"https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
+    img:responsiveWeb,
     name: "Responsive",
   },
   {

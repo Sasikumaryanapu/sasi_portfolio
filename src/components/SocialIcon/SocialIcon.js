@@ -1,29 +1,49 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "styled-components";
 
+// Styled link for each social icon
+const SocialLink = styled.a`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #151418; /* icon color */
+  transition: all 0.3s ease;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    color: inherit;
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.05); /* background changes on hover */
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+`;
+
+// Container for social icons
 export const SocialDiv = styled.div`
   margin-top: 2rem;
   display: none;
+
   ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
-  a {
-    font-size: 2.5rem;
-    color: #151418;
-    transition: 0.2s ease-in;
-    &:hover {
-      color: rgb(57, 134, 250);
-    }
-  }
-
-  .item + .item {
-    margin-left: 2rem;
+  .item {
+    margin: 0 1rem;
   }
 
   @media screen and (max-width: 768px) {
@@ -36,32 +56,25 @@ function SocialIcon() {
     <SocialDiv>
       <ul>
         <li className="item">
-          <a
+          <SocialLink
             href="https://www.linkedin.com/in/sasi-kumar16"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
             <FaLinkedin />
-          </a>
+          </SocialLink>
         </li>
         <li className="item">
-          <a
+          <SocialLink
             href="https://github.com/Sasikumaryanapu"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
           >
             <FaGithub />
-          </a>
+          </SocialLink>
         </li>
-        {/* <li className="item">
-          <a
-            href="https://www.linkedin.com/in/sasi-kumar16"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </li> */}
       </ul>
     </SocialDiv>
   );
