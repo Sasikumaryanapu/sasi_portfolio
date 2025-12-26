@@ -89,7 +89,13 @@ function Footer() {
           <FooterLink href="#about">About</FooterLink>
           <FooterLink href="#projects">Projects</FooterLink>
           <FooterLink href="#contact">Contact</FooterLink>
-          <FooterLink href="/resume.pdf" download>Download Resume</FooterLink>
+         <FooterLink
+  href={`${process.env.PUBLIC_URL}/resume.pdf`}
+  download
+>
+  Download Resume
+</FooterLink>
+
         </FooterSection>
 
         <FooterSection>
