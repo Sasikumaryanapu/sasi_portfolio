@@ -7,7 +7,6 @@ import { ThemeProvider as StyledThemeProvider } from "./context/ThemeContext";
 import Home from "./pages/Home";
 import GlobalStyles from "./styles/GlobalStyles";
 import { darkTheme, lightTheme } from "./theme";
-
 function App() {
   const [theme, setTheme] = useState("light");
 

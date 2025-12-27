@@ -32,7 +32,7 @@ export const ProjectList = [
     title: "Dundo",
     description: "Recreated the sleek UI of Urban Company with a strong emphasis on user authentication. While it's a UI clone, the platform maintains simplicity and secure user access.",
     tech_stack: "ReactJs , Nodejs , Expressjs , MongoDB , Redux Toolkit",
-    github_url: "https://github.com/Sasikumaryanapu/sasi_portfolio.git",
+    github_url: "https://github.com/Sasikumaryanapu/sasi-portfolio.git",
     demo_url: "https://dundo.netlify.app/",
   },
   // {
